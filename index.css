@@ -1,0 +1,138 @@
+body {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+    background: #E5E5E5;
+    box-sizing: border-box;
+}
+.container{
+    color: 		#222222;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+a{
+    color: 	#5c410e;
+    text-decoration: none;
+}
+.logo img{
+    max-height: 100px;
+    max-width: 100px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+
+  width: 60%;
+  min-width: 100px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    display: flex;
+    justify-content: center;   
+}
+.endone{
+    display: inline-block;
+    border-top: 2px solid black;
+    margin-top: 5rem;
+}
+.nendong img{
+width: 100px;
+height: 100px;
+background: none;
+}
+.nendong{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px; 
+  z-index: 1000;
+  background: none;
+  animation: nendong 10s infinite ease-in-out;
+}
+.tieude,.what,.global,.how,.end{
+    font-size: 1.5rem;
+}
+@keyframes nendong{
+    from{
+        left: -9%;
+    }
+    to{
+        left: 100%;
+    }
+}
+@media (max-width:750px){
+    .container{
+        font-size: 15px;
+        margin-left: none;
+        margin-right: none;
+    }
+.tieude,.what,.global,.how,.end{
+    font-size: 1rem;
+}
+    
+}
+@media (max-width:540px){
+    .container{
+        font-size: 15px;
+        margin-left: none;
+        margin-right: none;
+    }
+.tieude{
+    font-size: 13px;
+}
+.what,.global,.how,.end{
+    font-size: 17px;
+}
+}
+@media (max-width:445px){
+    .container{
+        font-size: 15px;
+        margin-left: none;
+        margin-right: none;
+    }
+.tieude{
+    font-size: 10px;
+}
+.what,.global,.how,.end{
+    font-size: 15px;
+}
+.logo img{
+    max-height: 80px;
+    max-width: 80px;
+}
+}
+@media (max-width:380px){
+    .container{
+        font-size: 15px;
+        margin-left: none;
+        margin-right: none;
+    }
+.tieude{
+    font-size: 8px;
+}
+.what,.global,.how,.end{
+    font-size: 13px;
+}
+.logo img{
+    max-height: 60px;
+    max-width: 60px;
+}
+}
+
+
+
